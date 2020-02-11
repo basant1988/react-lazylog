@@ -65,6 +65,7 @@ export default class Line extends Component {
     };
 
     return (
+      {console.log("Testttttt COMPILATION")}
       <div className={classes} style={lineStyle}>
         <LineNumber
           number={number}
